@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i");
+
+.card-container {
+  margin: 2rem;
+  font-family: "Space Mono", monospace;
+  width: 320px;
+  height: 190px;
+  background-image: url("https://image.ibb.co/bVnMrc/g3095.png"),
+    linear-gradient(
+      to right bottom,
+      #fd696b,
+      #fa616e,
+      #f65871,
+      #f15075,
+      #ec4879
+    );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  color: #fbfbfb;
+  text-align: center;
+
+  h3 {
+    text-transform: uppercase;
+  }
+  span {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1.3rem;
+
+    span {
+      font-size: 15px;
+      flex: 0.3;
+    }
+
+    & > :last-child {
+      flex: 0.2;
+    }
+  }
+}
